@@ -4,3 +4,6 @@
 [submodule "src/pymumble"]
 	path = src/pymumble
 	url = https://github.com/azlux/pymumble.git
+[submodule "vox-recorder"]
+	path = vox-recorder
+	url = https://github.com/OH1KK/vox-recorder.git
