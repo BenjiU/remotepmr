@@ -12,6 +12,7 @@ if __name__ == "__main__":
     parser.add_argument('-P', '--port', help='host port of mumble server', type=int, default="64738")
     parser.add_argument('-u', '--user', help='username for mumble server', default="remotepmr")
     parser.add_argument('-p', '--password', help='credential for mumble server', default="")
+    parser.add_argument('-g', '--gpio_tx', help='gpio used to activate tx on pmr', default="19")
     parser.add_argument('-v', '--verbosity', help='less or more output', default="INFO", metavar="LEVEL", choices=['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'])
     args = parser.parse_args()
 
